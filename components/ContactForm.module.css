@@ -1,0 +1,130 @@
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    /* Dodajemy centrowanie tekstu dla formularza */
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    /* Oddzielamy .label od lewej krawędzi o 10 pikseli */
+}
+
+.input {
+    width: calc(100% - 10px);
+    /* Ustawiamy szerokość o 10 pikseli mniej niż 100% (aby uwzględnić margines z prawej strony) */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    /* Oddzielamy .input od prawej krawędzi o 10 pikseli */
+}
+
+.tekst {
+    text-align: center;
+    color: #272763;
+    margin: 10px;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    /* Oddzielamy checkbox od lewej krawędzi o 10 pikseli */
+}
+
+.checkboxlabel input {
+    margin-right: 5px;
+}
+
+.submitButton {
+    display: inline-block;
+    /* Ustawiamy na inline-block, aby można było ustawić marginesy */
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    /* Ustawiamy szerokość przycisku */
+    background-color: #272763;
+    /* Zielone tło */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+    /* Nowy styl: Zmiana koloru tła przycisku po najechaniu myszką */
+}
+
+.submitButtonContainer {
+    text-align: center;
+    /* Centrujemy zawartość w poziomie */
+}
+
+.container {
+    display: flex;
+    background-color: #211a55;
+    /* Zielone tło dla całego formularza */
+}
+
+.content {
+    flex: 1;
+    background: white;
+    margin: 40px;
+    /* Dodajemy margines 10px ze wszystkich stron */
+    border-radius: 10px;
+    /* Zaokrąglamy rogi o 10 pikseli */
+    max-width: 20%;
+    /* Ustawiamy maksymalną szerokość na 30% */
+    margin-right: 350px;
+    /* Oddzielamy .content od prawej krawędzi o 30 pikseli */
+}
+
+.info {
+    flex: 1;
+    font-family: Arial, sans-serif;
+    /* Ustawiamy czcionkę */
+    text-align: center;
+    /* Centrujemy tekst */
+    margin-bottom: 20px;
+    /* Dodajemy odstęp na dole */
+    margin-left: 20px;
+    /* Dodajemy odstęp z lewej strony */
+    margin-right: 20px;
+    /* Dodajemy odstęp z prawej strony */
+    margin-top: 5%;
+}
+
+.info h2 {
+    font-size: 24px;
+    /* Ustawiamy rozmiar czcionki dla tytułu */
+    color: white;
+    /* Kolor tekstu */
+    margin-bottom: 20px;
+    /* Dodajemy dodatkowy odstęp na dole */
+    font-weight: 600;
+    width: 50%;
+    /* Ustawiamy szerokość na 50% */
+    margin: 0 auto;
+    /* Centrujemy element w poziomie */
+
+    top: 30%;
+    /* Ustawiamy odstęp od góry na 30% */
+}
+
+.info h4 {
+    font-size: 20px;
+    /* Ustawiamy rozmiar czcionki dla podtytułu */
+    color: white;
+    /* Kolor tekstu */
+    font-weight: 100;
+    /* Usuwamy pogrubienie z czcionki */
+    width: 50%;
+    /* Ustawiamy szerokość na 50% */
+    margin: 20px auto 0;
+    /* Dodajemy odstęp na górze */
+}

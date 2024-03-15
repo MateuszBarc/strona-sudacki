@@ -1,20 +1,9 @@
-.main {
-    padding: 20px;
+.naglowek {
+    font-size: 105px;
+    text-align: center;
+    font-family: fantasy;
 }
 
-.main h1 {
-    font-size: 24px;
-}
-
-.main p {
-    font-size: 18px;
-}
-
-.main ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.main ul li {
-    margin-bottom: 10px;
+.ptop {
+    text-align: center;
 }

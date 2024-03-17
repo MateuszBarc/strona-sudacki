@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import LightBox from '@/components/LightBox';
+import Footer from '../components/Footer'
 
 const Galeria = () => {
 
@@ -31,6 +32,7 @@ const Galeria = () => {
             <main>
                 <LightBox />
             </main>
+            <Footer />
         </div >
     );
 };

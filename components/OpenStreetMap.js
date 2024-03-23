@@ -17,7 +17,7 @@ const OpenStreetMap = ({ center, zoom }) => {
         }
     }, [center, zoom]);
 
-    return <div ref={mapRef} style={{ width: '400px', height: '400px', borderRadius: '250px' }} />; // Rozmiar mapki w px 
+    return <div ref={mapRef} style={{ width: '300px', height: '300px', borderRadius: '250px' }} />; // Rozmiar mapki w px oraz borderRadius to jest zaokreglenie w px
 };
 
 export default OpenStreetMap;

@@ -11,8 +11,11 @@ const Footer = () => {
                     <img src="/LogoCzarne.png" alt="Logo" style={{ width: '250px', height: '250px', borderRadius: '250px' }} />
                 </Link>
             </div>
-            <OpenStreetMap center={{ lat: 49.9329252, lng: 21.9091142 }} zoom={25} />
-            {/* Tutaj dodajemy zoom na mapie oraz wpolrzedne do mapy  */}
+            <div>
+                <Link href="https://www.google.com/search?q=maraton+lubenia&oq=marato&gs_lcrp=EgZjaHJvbWUqDwgAECMYJxjjAhiABBiKBTIPCAAQIxgnGOMCGIAEGIoFMhUIARAuGCcYrwEYxwEYgAQYigUYjgUyBggCEEUYOTIQCAMQABiDARixAxjJAxiABDINCAQQABiDARixAxiABDINCAUQABiSAxiABBiKBTIGCAYQRRg8MgYIBxBFGD3SAQc5MTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8"> <OpenStreetMap center={{ lat: 49.9329252, lng: 21.9091142 }} zoom={25} /></Link>
+                {/* Tutaj dodajemy zoom na mapie oraz wpolrzedne do mapy  */}
+
+            </div>
         </footer>
     );
 };
